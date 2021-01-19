@@ -15,3 +15,9 @@ Learnings from the course on regular basis.
 
 - Initial setup of the front-end of the application
 - Git repository setup
+- __rafce (React Arrow Function Component Export)__ is a short-cut by - `ES7 React/Redux/GraphQL/React-Native snippets` VSC extension
+- UI Libraries -`React Bootstrap`, `Material UI`
+- impt - shortcut to import PropTypes
+- Setting default values for props in a component (Ratings component)
+- Creating Components - Header, Footer, Products, Ratings
+- React Dev Tools Extension - Components and Profiles checking via browser
