@@ -21,3 +21,10 @@ Learnings from the course on regular basis.
 - Setting default values for props in a component (Ratings component)
 - Creating Components - Header, Footer, Products, Ratings
 - React Dev Tools Extension - Components and Profiles checking via browser
+- React Router - helps creating routes for different pages
+- Image fluid property - helps keeping image inside its container
+- Link - helps to create link for SPA, by changing pages browser is not refreshed
+- Listgroup - collection of different props of a component together
+- Listgroup flush property - no border
+- Row and Col - for grids
+- Card - for card type display
