@@ -68,3 +68,8 @@ import products from './data/products.js'
 - In Clusters -> add a database and collection
 - Clusters > Connect > MongoDB compass > copy given api string > paste in compass > set password and db name in the end > connect
 - Clusters > Connect > Connect your application > copy string > paste in .env as variable MONGO_URI with updated dbname and password
+- `mongoose` -> Object Modelling for NodeJS. Allows creating models and schema. Install and put db connection script in backend code.
+- `colors` -> vscode extension for changing colors of console log messages. Install and use on js scripts. Just write .colorname.characteristics(underline/bold) etc.
+- creating models for different components - User, Product, Order
+- creating sample data by generating data seeder script
+- `bcryptjs` -> hiding passwords
