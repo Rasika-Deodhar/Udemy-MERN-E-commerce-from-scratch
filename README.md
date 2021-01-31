@@ -15,7 +15,7 @@ Learnings from the course on regular basis.
 
 - Initial setup of the front-end of the application
 - Git repository setup
-- __rafce (React Arrow Function Component Export)__ is a short-cut by - `ES7 React/Redux/GraphQL/React-Native snippets` VSC extension
+- **rafce (React Arrow Function Component Export)** is a short-cut by - `ES7 React/Redux/GraphQL/React-Native snippets` VSC extension
 - UI Libraries -`React Bootstrap`, `Material UI`
 - impt - shortcut to import PropTypes
 - Setting default values for props in a component (Ratings component)
@@ -43,19 +43,23 @@ Learnings from the course on regular basis.
 - `__ES modules in Node.js__` -> set "type": "module" in package.json of the main project. This will allow importing of files/libraries in ES style.
 
 Example -
+
 ```
 const express = require('express')
 ```
-will become 
+
+will become
 
 ```
 import express from 'express'
 ```
-Files are exported as - ```export default products```
+
+Files are exported as - `export default products`
 
 AND
 
 Files will be imported with extension -
+
 ```
 import products from './data/products.js'
 ```
@@ -73,3 +77,9 @@ import products from './data/products.js'
 - creating models for different components - User, Product, Order
 - creating sample data by generating data seeder script
 - `bcryptjs` -> hiding passwords
+
+- seeder.js -> script to create and delete the data in the given Database. Parameters need to be provided while running the script which can be defined in package.json (data:import and data:destroy) which would help to determine which method in the script has to be called in.
+- adding route folder and adding a seperate router file for each model. Each model will have a different route in distinguished file which will be set in server script. -`express-async-handler` -> middleware for handling exceptions of async express routes and pass them to express handlers (from npm website)
+- run the server and check for data on api.
+- Intro to `Postman` and how can we call apis from there is explained (already know that)
+- `Custom Error Handler` - Changing default error message. Can throw via api condition. FOr other errors we can create an error middleware handling different error conditions.
