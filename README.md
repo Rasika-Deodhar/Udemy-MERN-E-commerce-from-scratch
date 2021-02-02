@@ -83,3 +83,13 @@ import products from './data/products.js'
 - run the server and check for data on api.
 - Intro to `Postman` and how can we call apis from there is explained (already know that)
 - `Custom Error Handler` - Changing default error message. Can throw via api condition. FOr other errors we can create an error middleware handling different error conditions.
+
+### `Section 5: Implementing Redux For State Management`
+
+- Redux Pattern -> Introduction -> Reducer, Components, Actions and Server
+- `Redux DevTools` -> extension on Chrome for devs to compile and debug
+- `redux` - state manager, `react-redux` to use with react
+- `redux-thunk` - middleware
+- `redux-devtools-extension` - to make redux work
+
+-`store` - By definition - A store is an object that holds the application's state tree There should only be a single store in a Redux app, as the composition happens on the reducer level.
