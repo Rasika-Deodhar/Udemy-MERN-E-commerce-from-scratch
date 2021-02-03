@@ -92,4 +92,12 @@ import products from './data/products.js'
 - `redux-thunk` - middleware
 - `redux-devtools-extension` - to make redux work
 
--`store` - By definition - A store is an object that holds the application's state tree There should only be a single store in a Redux app, as the composition happens on the reducer level.
+- `store` - By definition - A store is an object that holds the application's state tree There should only be a single store in a Redux app, as the composition happens on the reducer level.
+
+- `state` can be seen in `redux` chrome extension. We have to set reducers in the front end to be able to see the state at each time. **Note** : The states are saved as constant in a separate constant file.
+- `thunk` - used to add function within a function
+- `action` - will make the initial calls and dispatch the output to reducers defined. We have to fire-off the action to get the default results as required.
+- The action function is triggered from the screen code, `useEffect` and `useSelector` are used to `trigger action function to dispatch data` and `pick a particular state from redux store(defined in action function)` respectively.
+
+- For adding _Reducer_ and _Actions_ to other screens follow these steps to write code:
+  `Constants -> Reducer -> Store -> Action -> Screen`
