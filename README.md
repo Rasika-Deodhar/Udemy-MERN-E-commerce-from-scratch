@@ -101,3 +101,16 @@ import products from './data/products.js'
 
 - For adding _Reducer_ and _Actions_ to other screens follow these steps to write code:
   `Constants -> Reducer -> Store -> Action -> Screen`
+
+### `Section 6: Adding The Shopping Cart`
+
+- Adding `Quantity` component
+- Adding `Cart` functionality using redux.
+- _Steps_ :-
+
+  1. `Capture qty in product screen and push it via URL on Cart Screen component. The URL can be defined in Route of App.js`. _Note-_ Qty initial state is set as 1 in Product screen
+
+  2. `Add cart screen -> cart constants -> cart reducer -> add in store -> cart actions`
+
+- `reduce` -> Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
+  _Used while changing the cart items - helps in re-calculating the quantity, no. of items selected and total-price._
