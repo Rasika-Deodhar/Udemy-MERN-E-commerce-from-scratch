@@ -114,3 +114,29 @@ import products from './data/products.js'
 
 - `reduce` -> Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
   _Used while changing the cart items - helps in re-calculating the quantity, no. of items selected and total-price._
+
+### `Section 7: Back End User Authentication`
+
+- Adding Product Controllers, calling controllers from routers
+- Adding User Authentication End-point (using `bcrypt` from checking correct password)
+- `JWT` - Json Web Tokens - Helps in Authorization within application.
+  We can send a Bearer Token via Header for each end-point to know if the user is authorized to access it. `jwt.io` helps in generation of token based on a hashing algorithm
+
+- Created User route, user controller for user end-points
+- utils/generateToken.js is created to generate JWT signature token for provided user id.
+
+- create auth middleware and use it in user routes
+
+- tokens can be saved in postman using tests from login api -
+
+```
+pm.environment.set("TOKEN", pm.response.json().token)
+```
+
+- Add `{{TOKEN}}` in the auth of the auth end-point which you want to check
+
+- Registering a new user - register user endpoint - controller
+- generate a token while registering a user
+- `salt` - by definition - The salt is random data very often used in cryptography as additional input to a hash function. Doing encryption and decryption of a String with a salt implies that you should: Read an initial String. Generate random bytes to be placed in the salt.
+- salt can be generated using `bcrypt.genSalt()`
+- `schema.pre()` - function used before saving the record
