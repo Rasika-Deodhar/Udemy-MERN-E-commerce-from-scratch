@@ -138,5 +138,20 @@ pm.environment.set("TOKEN", pm.response.json().token)
 - Registering a new user - register user endpoint - controller
 - generate a token while registering a user
 - `salt` - by definition - The salt is random data very often used in cryptography as additional input to a hash function. Doing encryption and decryption of a String with a salt implies that you should: Read an initial String. Generate random bytes to be placed in the salt.
-- salt can be generated using `bcrypt.genSalt()`
+- salt can be generated using `bcrypt.genSalt()`.
+
+  A cryptographic salt is made up of random bits added to each password instance before its hashing. Salts create unique passwords even in the instance of two users choosing the same passwords. Salts help us mitigate rainbow table attacks by forcing attackers to re-compute them using the salts.
+
 - `schema.pre()` - function used before saving the record
+
+### `Section 8: Front End User Authentication & Profile`
+
+- Create user constant, reducer, action
+
+#### Note: The store is returning _local storage value_ in case of some variables which is causing error saying -
+
+```
+uncaught syntaxerror unexpected token U JSON
+```
+
+- #### To resolve this, set the value of those variables as empty array. Comment mentioned in store.js
