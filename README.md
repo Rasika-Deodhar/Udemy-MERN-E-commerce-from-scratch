@@ -155,3 +155,7 @@ uncaught syntaxerror unexpected token U JSON
 ```
 
 - #### To resolve this, set the value of those variables as empty array. Comment mentioned in store.js
+
+- `Form Container Component` loads form in the provided format.
+
+- Displaying User on Navbar
