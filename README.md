@@ -159,3 +159,8 @@ uncaught syntaxerror unexpected token U JSON
 - `Form Container Component` loads form in the provided format.
 
 - Displaying User on Navbar
+- User Logout functionality
+
+- User register -> reducer, action and screen
+
+- Update User functionality -> PUT API -> changes in user controller and user routes
