@@ -164,3 +164,5 @@ uncaught syntaxerror unexpected token U JSON
 - User register -> reducer, action and screen
 
 - Update User functionality -> PUT API -> changes in user controller and user routes
+
+- Adding Profile screen -> user constants added -> user details reducer -> store -> user action -> profile screen ui component -> adding route in app.js
