@@ -21,7 +21,7 @@ const ProfileScreen = ({ location, history }) => {
   const { userInfo } = userLogin
 
   const userUpdateProfile = useSelector((state) => state.updateUserProfile)
-  const { success } = userUpdateProfile
+  const { success } = userUpdateProfile !== undefined ? true : false
 
   useEffect(() => {
     if (!userInfo) {
@@ -29,6 +29,7 @@ const ProfileScreen = ({ location, history }) => {
     } else {
       if (user === undefined || !user.name) {
         dispatch(getUserDetails('profile'))
+        console.log('dispatch complete', user)
       } else {
         setName(user.name)
         setEmail(user.email)
@@ -51,7 +52,7 @@ const ProfileScreen = ({ location, history }) => {
         <h2>User Profile</h2>
         {message && <Message variant='danger'>{message}</Message>}
         {error && <Message variant='danger'>{error}</Message>}
-        {success && <Message variant='variant'>Profile Updated!</Message>}
+        {/* {success && <Message variant='variant'>Profile Updated!</Message>} */}
         {loading && <Loader />}
         <Form onSubmit={submitHandler}>
           <Form.Group controlId='name'>
@@ -85,7 +86,7 @@ const ProfileScreen = ({ location, history }) => {
           </Form.Group>
 
           <Form.Group controlId='confirmPassword'>
-            <Form.Label>COnfirm Password</Form.Label>
+            <Form.Label>Confirm Password</Form.Label>
             <Form.Control
               type='password'
               placeholder='Confirm your password'
