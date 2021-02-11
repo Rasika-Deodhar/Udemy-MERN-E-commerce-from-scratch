@@ -27,13 +27,15 @@ const ProfileScreen = ({ location, history }) => {
     if (!userInfo) {
       history.push('/login')
     } else {
-      if (user === undefined || !user.name) {
-        dispatch(getUserDetails('profile'))
-        console.log('dispatch complete', user)
-      } else {
-        setName(user.name)
-        setEmail(user.email)
-      }
+      // if (user === undefined || !user.name) {
+      //   dispatch(getUserDetails('profile'))
+      //   console.log('dispatch complete', user)
+      // } else {
+      //   setName(user.name)
+      //   setEmail(user.email)
+      // }
+      setName(userInfo.name)
+      setEmail(userInfo.email)
     }
   }, [dispatch, history, userInfo, user])
 
@@ -42,7 +44,7 @@ const ProfileScreen = ({ location, history }) => {
     if (password !== confirmPassword) {
       setMessage('Passwords dont match')
     } else {
-      dispatch(updateUserProfile({ id: user._id, name, email, password }))
+      dispatch(updateUserProfile({ id: userInfo._id, name, email, password }))
     }
   }
 

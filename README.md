@@ -166,3 +166,12 @@ uncaught syntaxerror unexpected token U JSON
 - Update User functionality -> PUT API -> changes in user controller and user routes
 
 - Adding Profile screen -> user constants added -> user details reducer -> store -> user action -> profile screen ui component -> adding route in app.js
+
+```
+Note: Profile Update is Not working if followed the course, produces error.
+Commented that code in ProfileScreen.js and updated it according to my work of my browser and machine
+```
+
+### `Section 9: Checkout Process - Part 1`
+
+- Adding Shipping Screen
