@@ -174,4 +174,6 @@ Commented that code in ProfileScreen.js and updated it according to my work of m
 
 ### `Section 9: Checkout Process - Part 1`
 
-- Adding Shipping Screen
+- Adding Shipping Screen, cart reducer, cart action, cart constant, fetched from local storage in store.
+
+- Checkout steps Screen
