@@ -178,3 +178,4 @@ Commented that code in ProfileScreen.js and updated it according to my work of m
 
 - Checkout steps Screen
 - Payment Mode Screen
+- Place Order Screen
