@@ -177,3 +177,4 @@ Commented that code in ProfileScreen.js and updated it according to my work of m
 - Adding Shipping Screen, cart reducer, cart action, cart constant, fetched from local storage in store.
 
 - Checkout steps Screen
+- Payment Mode Screen

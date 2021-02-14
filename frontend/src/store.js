@@ -27,10 +27,10 @@ const reducer = combineReducers({
  * Can cause undefined error if localStorage is empty
  * In that case set the value to empty array as given below the code
  *  */
-// const cartItemsFromStorage =
-//   localStorage.getItem('cartItems') !== undefined
-//     ? JSON.parse(localStorage.getItem('cartItems'))
-//     : []
+const cartItemsFromStorage =
+  localStorage.getItem('cartItems') !== undefined
+    ? JSON.parse(localStorage.getItem('cartItems'))
+    : []
 
 const userInfoFromStorage =
   localStorage.getItem('userInfo') !== undefined
@@ -40,10 +40,11 @@ const userInfoFromStorage =
 const shippingAddressFromStorage =
   localStorage.getItem('shippingAddress') !== undefined
     ? JSON.parse(localStorage.getItem('shippingAddress'))
-    : {}
+    : []
 
-const cartItemsFromStorage = []
+// const cartItemsFromStorage = []
 // const userInfoFromStorage = []
+// const shippingAddressFromStorage = []
 
 const initialState = {
   cart: {
