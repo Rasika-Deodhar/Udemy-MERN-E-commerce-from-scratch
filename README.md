@@ -181,3 +181,6 @@ Screen -> Reducer -> Action -> Constants -> Store declaration
 - Payment Mode Screen
 - Place Order Screen
 - Order Create Screen
+
+- Added Order Co1ntroller - GET order
+- Display Order Screen (UI and Backend changes)
