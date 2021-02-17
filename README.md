@@ -184,3 +184,8 @@ Screen -> Reducer -> Action -> Constants -> Store declaration
 
 - Added Order Co1ntroller - GET order
 - Display Order Screen (UI and Backend changes)
+
+- Setting Payment using Paypal api -> available on paypal dev (https://developer.paypal.com/developer/applications/) -> `Create a Personal and Business dummy account from sandbox > accounts. From Dashboard > My apps and cred, create an app and set the sandbox account to it.`
+- Added Paypal script in Order Screen page using JS async function
+- install react paypal button on UI - It will provide a paypal button
+- `After clicking on the button Login to Paypal using sandbox credentials and your dummy payment will be successfully made.`
