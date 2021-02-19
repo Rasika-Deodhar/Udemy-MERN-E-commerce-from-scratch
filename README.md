@@ -189,3 +189,7 @@ Screen -> Reducer -> Action -> Constants -> Store declaration
 - Added Paypal script in Order Screen page using JS async function
 - install react paypal button on UI - It will provide a paypal button
 - `After clicking on the button Login to Paypal using sandbox credentials and your dummy payment will be successfully made.`
+
+- Add orders from user on user profile under My Orders (Order controller and Redux of Order component to be added and using those in Profile Screen)
+
+- Added CART RESET alongwith USER_RESET and ORDER_LIST_RESET after the user logs out.
