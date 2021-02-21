@@ -179,10 +179,13 @@ Screen -> Reducer -> Action -> Constants -> Store declaration
 
 - Checkout steps Screen
 - Payment Mode Screen
+
+### `Section 10: Checkout Process - Part 2`
+
 - Place Order Screen
 - Order Create Screen
 
-- Added Order Co1ntroller - GET order
+- Added Order Controller - GET order
 - Display Order Screen (UI and Backend changes)
 
 - Setting Payment using Paypal api -> available on paypal dev (https://developer.paypal.com/developer/applications/) -> `Create a Personal and Business dummy account from sandbox > accounts. From Dashboard > My apps and cred, create an app and set the sandbox account to it.`
@@ -193,3 +196,11 @@ Screen -> Reducer -> Action -> Constants -> Store declaration
 - Add orders from user on user profile under My Orders (Order controller and Redux of Order component to be added and using those in Profile Screen)
 
 - Added CART RESET alongwith USER_RESET and ORDER_LIST_RESET after the user logs out.
+
+### `Section 11: Admin Screens - Part 1`
+
+- Adding get all users api, only for admin user. Setting `admin` function in `authMiddleware` and applying it in `userRoutes`, so that if user is admin, only then the api can be accessed.
+
+- Admin screen access security by reseting user list state when admin logs out and page redirection when non-admin tries to access the api.
+
+- Writing Edit and Delete User end-points for Admin Screen.
