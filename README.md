@@ -204,3 +204,5 @@ Screen -> Reducer -> Action -> Constants -> Store declaration
 - Admin screen access security by reseting user list state when admin logs out and page redirection when non-admin tries to access the api.
 
 - Writing Edit and Delete User end-points for Admin Screen.
+
+- Adding User Edit Screen for Admin user
