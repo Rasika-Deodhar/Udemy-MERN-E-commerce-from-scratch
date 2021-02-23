@@ -205,4 +205,6 @@ Screen -> Reducer -> Action -> Constants -> Store declaration
 
 - Writing Edit and Delete User end-points for Admin Screen.
 
-- Adding User Edit Screen for Admin user
+- Adding User Edit Screen for Admin user with user edit controller and redux code
+
+### `Section 12: Admin Screens - Part 2`
