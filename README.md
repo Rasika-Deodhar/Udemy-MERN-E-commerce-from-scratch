@@ -208,3 +208,5 @@ Screen -> Reducer -> Action -> Constants -> Store declaration
 - Adding User Edit Screen for Admin user with user edit controller and redux code
 
 ### `Section 12: Admin Screens - Part 2`
+
+- Product List Screen added - Backend and UI code
