@@ -210,3 +210,4 @@ Screen -> Reducer -> Action -> Constants -> Store declaration
 ### `Section 12: Admin Screens - Part 2`
 
 - Product List Screen added - Backend and UI code
+- Create and Update Product functionality addition
