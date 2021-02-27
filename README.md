@@ -211,3 +211,6 @@ Screen -> Reducer -> Action -> Constants -> Store declaration
 
 - Product List Screen added - Backend and UI code
 - Create and Update Product functionality addition
+
+- File upload functionality for Image in Create object - using `multer`
+- `__dirname -> current directory` is not available with ES6 module. We can get it using `path.resolve()`

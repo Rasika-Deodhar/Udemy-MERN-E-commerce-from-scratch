@@ -20,7 +20,6 @@ const UserEditScreen = ({ match, history }) => {
   const userDetails = useSelector((state) => state.userDetails)
   const { loading, error, user } = userDetails
   const userInfo = userDetails.userInfo
-  console.log(userInfo)
 
   const userUpdate = useSelector((state) => state.userUpdate)
   const {
