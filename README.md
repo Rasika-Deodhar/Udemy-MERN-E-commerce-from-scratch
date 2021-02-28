@@ -214,3 +214,5 @@ Screen -> Reducer -> Action -> Constants -> Store declaration
 
 - File upload functionality for Image in Create object - using `multer`
 - `__dirname -> current directory` is not available with ES6 module. We can get it using `path.resolve()`
+
+- Order Details Page
