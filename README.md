@@ -216,3 +216,9 @@ Screen -> Reducer -> Action -> Constants -> Store declaration
 - `__dirname -> current directory` is not available with ES6 module. We can get it using `path.resolve()`
 
 - Order Details Page
+
+### `Section 13: Product Reviews, Search & More`
+
+- `morgan` -> logger to know which api is hit in the editor console
+
+- Create Review End-point and UI code
