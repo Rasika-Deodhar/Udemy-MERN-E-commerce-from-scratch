@@ -222,3 +222,7 @@ Screen -> Reducer -> Action -> Constants -> Store declaration
 - `morgan` -> logger to know which api is hit in the editor console
 
 - Create Review End-point and UI code
+
+- Adding Search Product functionality
+- `Route` from `react-router-dom` will help us in accessing props of another component. Implemented in `Header.js`. `Route` is rendering `SearchBox` module, which gives us access to `history` prop.
+- `Product Controller > getProducts` is changed based on the input keyword value. `Regex` is applied to get for partial product name value.
