@@ -226,3 +226,9 @@ Screen -> Reducer -> Action -> Constants -> Store declaration
 - Adding Search Product functionality
 - `Route` from `react-router-dom` will help us in accessing props of another component. Implemented in `Header.js`. `Route` is rendering `SearchBox` module, which gives us access to `history` prop.
 - `Product Controller > getProducts` is changed based on the input keyword value. `Regex` is applied to get for partial product name value.
+
+- Adding pagination on home screen
+- Updating `getProducts` endpoint to manage the pageSize, pageNumber and count of items to be displayed. In the query - `limit` is used to get first n records and `skip` is used to skip first n records.
+- Added `Pagination` from `react-router-bootstrap`, spreaded array of elements inside `Pagination tag`. `Pagination Item` contains `active` property to check if the link is similar to the page provided, meaning it is currently active.
+
+- Add `exact` where ever path of same component is provided in `App.js` to avoid duplicate screen.
