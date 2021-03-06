@@ -232,3 +232,6 @@ Screen -> Reducer -> Action -> Constants -> Store declaration
 - Added `Pagination` from `react-router-bootstrap`, spreaded array of elements inside `Pagination tag`. `Pagination Item` contains `active` property to check if the link is similar to the page provided, meaning it is currently active.
 
 - Add `exact` where ever path of same component is provided in `App.js` to avoid duplicate screen.
+
+- Add Get Top Products Functionality
+- Add Custom Page Title Functionality using `react-helmet`
