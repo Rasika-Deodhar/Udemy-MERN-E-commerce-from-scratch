@@ -247,4 +247,4 @@ Screen -> Reducer -> Action -> Constants -> Store declaration
 - `Procfile` - tells heroku how to run the application - (app config)
 - set `heroku-postbuild` command on package.json
 - `heroku git:remote -a pro-shop-app-rasika` - set heroku as remote branch
--
+- Set environment variables on Heroku project -> settings -> config vars
