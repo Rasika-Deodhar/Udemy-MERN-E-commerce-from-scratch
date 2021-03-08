@@ -246,3 +246,5 @@ Screen -> Reducer -> Action -> Constants -> Store declaration
 - `heroku login` will log you in and then we can create a new application from there
 - `Procfile` - tells heroku how to run the application - (app config)
 - set `heroku-postbuild` command on package.json
+- `heroku git:remote -a pro-shop-app-rasika` - set heroku as remote branch
+-
