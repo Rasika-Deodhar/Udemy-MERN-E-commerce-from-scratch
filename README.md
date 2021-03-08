@@ -235,3 +235,14 @@ Screen -> Reducer -> Action -> Constants -> Store declaration
 
 - Add Get Top Products Functionality
 - Add Custom Page Title Functionality using `react-helmet`
+
+### `Section 14: App Deployment`
+
+- Preparation of deployment - `npm run build` on frontend which will create `index.html` which has to be loaded when deployed
+- Write script in `server.js`
+
+- App deployed on `Heroku` - free app publishing website.
+- `Heroku CLI` - access the heroku terminal, downloa from the website
+- `heroku login` will log you in and then we can create a new application from there
+- `Procfile` - tells heroku how to run the application - (app config)
+- set `heroku-postbuild` command on package.json
